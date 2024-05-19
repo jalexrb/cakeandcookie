@@ -16,11 +16,11 @@ main {
     display: flex; /* Utilizamos flexbox */
     position: relative;
     overflow: hidden; /* Oculta el desbordamiento */
-    justify-content: center; /* Centra horizontalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */   
 }
 
 .social-icons img {
-    height: 20px; /* Ajusta el tamaño de los iconos */
+    height: 30px; /* Ajusta el tamaño de los iconos */
     margin-right: 5px; /* Espacio entre el icono y el texto */
 }
 
@@ -36,8 +36,8 @@ main {
     margin-right: 5px; /* Espacio entre el icono y el texto */
     font-style: normal; /* Aplica el estilo de fuente cursiva */
     font-family: Verdana, sans-serif;
-    font-size: medium;
     position: relative;
+    font-size: 24px;    
 }
 
 .section {
