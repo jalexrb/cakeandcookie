@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    margin-top: 0px; /* Ajusta el margen superior del contenido principal para evitar que se superponga con el header */
+}
+
+.logo img {
+    height: 300px;
+    width: 300px;
+}
+
+.social-icons {
+    display: flex; /* Utilizamos flexbox */
+    position: relative;
+    overflow: hidden; /* Oculta el desbordamiento */
+    justify-content: center; /* Centra horizontalmente el contenido */
+}
+
+.social-icons img {
+    height: 20px; /* Ajusta el tamaño de los iconos */
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+
+.social-icons button {
+    background-color: transparent; /* Fondo transparente para los botones */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor de tipo puntero al pasar sobre los botones */
+    display: flex; /* Utilizamos flexbox */
+    align-items: center; /* Centra verticalmente los elementos */
+    color: rgb(0, 0, 0); /* Color del texto */
+
+    height: 30px; /* Ajusta el tamaño de los iconos */
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+    font-style: normal; /* Aplica el estilo de fuente cursiva */
+    font-family: Verdana, sans-serif;
+    font-size: medium;
+    position: relative;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: rgb(18, 1, 1); /* Color del texto */
+    overflow: hidden; /* Oculta el desbordamiento */
+    height: 100vh;  /*Establece la altura de la sección al 100% del viewport */
+
+    display: flex; /* Utilizamos flexbox */
+    justify-content: center; /* Centra horizontalmente el contenido */
+}
+
+.section-content {
+    position: absolute;
+    text-align: center; /* Centra horizontalmente el texto */
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1; /* Asegura que el texto esté por encima de la imagen de fondo */
+    font-style: italic; /* Aplica el estilo de fuente cursiva */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.2); /* Opacidad para la imagen de fondo */
+    z-index: 0; /* Asegura que la imagen de fondo esté detrás del contenido */
+}
+
+#section1 {
+    
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+
